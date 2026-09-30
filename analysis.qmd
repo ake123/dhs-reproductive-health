@@ -11,7 +11,6 @@ format:
     code-tools: true
     embed-resources: true
     theme: cosmo
-  pdf: default
 execute:
   warning: false
   message: false
