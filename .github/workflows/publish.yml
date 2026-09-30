@@ -29,6 +29,8 @@ jobs:
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c(
+            "knitr",
+            "rmarkdown",
             "tidyverse",
             "survey",
             "srvyr",
