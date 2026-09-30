@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Reproductive Health Survey Analysis"
+  navbar:
+    left:
+      - href: analysis.qmd
+        text: Analysis
+    right:
+      - icon: github
+        href: https://github.com/ake123/dhs-reproductive-health
+
+format:
+  html:
+    toc: true
+    code-fold: true
+    theme: cosmo
+
+execute:
+  freeze: auto
